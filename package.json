@@ -1,0 +1,26 @@
+{
+  "name": "ws-sosfraldas-template",
+  "version": "1.0.0",
+  "description": "Instalação TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oandalves/SOS-Fraldas---Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oandalves/SOS-Fraldas---Template/issues"
+  },
+  "homepage": "https://github.com/oandalves/SOS-Fraldas---Template#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

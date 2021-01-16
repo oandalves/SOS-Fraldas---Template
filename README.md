@@ -35,4 +35,4 @@ logo em seguida, no seu terminal digite o comando para atualizar o arquivo: npm 
 - Após ter concluído todos os passos anteriores você irá criar dentro da pasta /public o arquivo index.html. 
 - Acrescente o link de style criado. Ele irá referenciar ao css da pasta build.
 <link rel="stylesheet" href="build/tailwind.css">
-- Acrescente um <h1> ao body. Em seguida execute o comando: live-server public. Irá direcionar para o seu navegador de internet. Pronto, seu TailwindCSS está configurado. Agora só aproveitar da documentação no site oficial. ;)
+- Acrescente um h1 ao body. Em seguida execute o comando: live-server public. Irá direcionar para o seu navegador de internet. Pronto, seu TailwindCSS está configurado. Agora só aproveitar da documentação no site oficial. ;)
