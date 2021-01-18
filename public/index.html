@@ -13,12 +13,12 @@
 </head>
 
 <body class="bg-blue-100">
-
+    
     <!-- begin header -->
     <header class="bg-white h-30 py-10">
         <div class="container mx-auto pb-4">
             <!-- Logo website -->
-            <a href="index.html">
+            <a href="index-responsive.html">
                 <img class="h-12 float-left" src="img/logo.svg" alt="Logo - SOS Fraldas">
             </a>
             <div class="float-right">
@@ -68,7 +68,7 @@
                     <!-- link "meu chá" -->
                     <a class="rounded-3xl mr-10 py-3 px-6
                     group-hover:bg-yellow-500 group-hover:text-white 
-                    group-active:bg-yellow-500 group-active:text-white" href="#">
+                    group-active:bg-yellow-500 group-active:text-white" href="index-responsive.html">
                         <svg class="mr-3 text-blue-300 h-6 w-6 inline-block 
                         group-hover:text-white group-active:text-white" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20" fill="currentColor">
@@ -245,7 +245,7 @@
             </div>
             <!-- end column space 2 -->
 
-            <!-- begin aside -->
+            <!-- begin aside (column nº3) -->
             <div class="aside">
                 <!-- begin div "carteira + usar créditos" -->
                 <div class="static grid grid-cols-3 bg-white py-12 px-8 rounded-lg shadow-lg uppercase mb-5">
@@ -289,6 +289,24 @@
         </div>
     </div>
     <!-- end container + aside -->
+
+    <!-- style menu-hamburguer-->
+    <style>
+        .active {
+            display: block;
+        }
+    </style>
+
+    <!-- script menu-hamburguer-->
+    <script>
+        let hamburger = document.getElementById('hamburgerbtn');
+
+        let mobileMenu = document.getElementById('mobileMenu');
+
+        hamburger.addEventListener('click', function () {
+            mobileMenu.classList.toggle('active');
+        });
+    </script>
 
 </body>
 
